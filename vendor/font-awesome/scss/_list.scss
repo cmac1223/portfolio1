@@ -8,7 +8,7 @@
   > li { position: relative; }
 }
 .#{$fa-css-prefix}-li {
-  position: absolute;
+  position: static;
   left: -$fa-li-width;
   width: $fa-li-width;
   top: (2em / 14);

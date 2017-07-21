@@ -10,7 +10,7 @@
   vertical-align: middle;
 }
 .#{$fa-css-prefix}-stack-1x, .#{$fa-css-prefix}-stack-2x {
-  position: absolute;
+  position: static;
   left: 0;
   width: 100%;
   text-align: center;

@@ -262,7 +262,7 @@ section {
             margin: 0 auto;
             .portfolio-hover {
                 background: fade(@theme-primary, 90%);
-                position: absolute;
+                position: static;
                 width: 100%;
                 height: 100%;
                 opacity: 0;
@@ -273,7 +273,7 @@ section {
                     opacity: 1;
                 }
                 .portfolio-hover-content {
-                    position: absolute;
+                    position: static;
                     width: 100%;
                     height: 20px;
                     font-size: 20px;
@@ -331,7 +331,7 @@ section {
     &:before {
         top: 0;
         bottom: 0;
-        position: absolute;
+        position: static;
         content: "";
         width: 2px;
         background-color: #f1f1f1;
@@ -374,7 +374,7 @@ section {
             margin-left: 0;
             width: 80px;
             height: 80px;
-            position: absolute;
+            position: static;
             z-index: 100;
             background-color: @theme-primary;
             color: white;
@@ -673,7 +673,7 @@ ul.social-buttons {
         }
     }
     .close-modal {
-        position: absolute;
+        position: static;
         width:75px;
         height:75px;
         background-color:transparent;
